@@ -254,7 +254,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
     opacity: 0.8;
 }
-
+.main-btn:hover, .main-btn:focus {
+    color: #FFF;
+}
 
 /*------------------------------------*\
 	Logo

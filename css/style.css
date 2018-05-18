@@ -289,6 +289,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 @media only screen and (max-width: 767px) {
+    .navbar-brand a {
+        padding-left: 25px;
+    }
     #nav.nav-transparent .navbar-brand .logo-alt {
         display: none !important;
     }
@@ -296,7 +299,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         display: block !important;
     }
 }
-
 
 /*------------------------------------*\
 	Navigation
@@ -602,6 +604,7 @@ header {
 
 .home-content h1 {
   text-transform: uppercase;
+  font-size: 36px;
 }
 .home-content button {
   margin-top: 20px;
@@ -1516,7 +1519,7 @@ header {
 	}
 
   .home-content h1 {
-		font-size:36px;
+		font-size:24px;
 	}
 
   .header-wrapper h2 {

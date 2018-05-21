@@ -175,6 +175,10 @@ ul, ol {
 
 /* --  section header  -- */
 
+.program-section {
+    margin-bottom: 30px;
+}
+
 .section-header {
     position: relative;
     margin-bottom: 60px;
@@ -193,8 +197,23 @@ ul, ol {
     margin-top: 20px;
 }
 
+.subtitle:after {
+    content:"";
+  	display:block;
+  	height:4px;
+  	width:40px;
+  	background-color: #f06292;
+    margin-top: 10px; 
+}
+
 .text-center .title:after {
     margin: 20px auto 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .program-section {
+        padding: 0 30px;
+    }
 }
 
 /* --  Input  -- */
@@ -789,53 +808,6 @@ header {
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
     opacity: 1;
-}
-
-
-/*------------------------------------*\
-	Services
-\*------------------------------------*/
-
-.service {
-    position: relative;
-    padding: 40px 20px 40px 70px;
-    margin: 15px 0px;
-    border: 1px solid #EEE;
-}
-
-.service i {
-    position: absolute;
-    left: 20px;
-    text-align: center;
-    font-size: 32px;
-    color: #6195FF;
-    border-radius: 50%;
-}
-
-.service:after {
-    content: "";
-    background-color: #1C1D21;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 0%;
-    z-index: -1;
-    -webkit-transition: 0.2s width;
-    transition: 0.2s width;
-}
-
-.service:hover:after {
-    width: 100%;
-}
-
-.service h3 {
-  -webkit-transition: 0.2s color;
-  transition: 0.2s color;
-}
-
-.service:hover h3 {
-    color: #fff;
 }
 
 /*------------------------------------*\

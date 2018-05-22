@@ -134,6 +134,13 @@ ul, ol {
     padding-bottom: 60px;
 }
 
+@media only screen and (max-width: 767px) {
+    .md-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
 
 /* --  background section  -- */
 
@@ -244,7 +251,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* --  Buttons  -- */
 
-.main-btn, .white-btn, .outline-btn {
+.main-btn, .white-btn, .outline-btn, .pink-btn {
     display: inline-block;
     padding: 10px 35px;
     margin: 3px;
@@ -264,6 +271,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     color: #10161A !important;
 }
 
+.pink-btn {
+    background: #f06292;
+    color: #fff !important;
+}
+
 .outline-btn {
     background: transparent;
     color: #6195FF !important;
@@ -277,6 +289,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     color: #FFF;
 }
 
+.main-nav>li>a.pink-txt, #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a.pink-txt {
+    color: #f06292;
+}
 /*------------------------------------*\
 	Logo
 \*------------------------------------*/
@@ -627,6 +642,14 @@ header {
   text-transform: uppercase;
   font-size: 36px;
 }
+.home-content h1:after {
+    content:"";
+    display:block;
+    height:4px;
+    width:150px;
+    background-color: #f06292;
+    margin: 10px auto 0 auto; 
+}
 .home-content button {
   margin-top: 20px;
 }
@@ -846,6 +869,15 @@ header {
     margin-bottom: 10px;
 }
 
+#numbers .row {
+    padding: 140px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    #numbers .row {
+        padding: 80px 0;
+    }
+ }
 
 /*------------------------------------*\
 	Pricing
@@ -1080,6 +1112,18 @@ header {
     opacity: 1;
 }
 
+@media only screen and (max-width: 767px) {
+    .team {
+        background-color: #FFF;
+        padding: 5px 20px;
+    }
+    .team-img {
+        margin: 0;
+    }
+    .team-img .img-responsive {
+        display: none;
+    }
+}
 
 /*------------------------------------*\
 	Blog
@@ -1406,7 +1450,7 @@ header {
 
 .contact i {
     font-size: 36px;
-    color: #6195FF;
+    color: #f06292;
     margin-bottom: 20px;
 }
 
@@ -1426,6 +1470,16 @@ header {
 
 .contact-form .input:nth-child(2) {
     margin-left: 15px;
+}
+.social-media-section {
+    margin-top: 30px;
+}
+.social-media-section h3 {
+    text-align: center;
+}
+
+.social-media-section h3:after {
+    margin: 10px auto 0 auto;
 }
 
 /*------------------------------------*\
@@ -1447,7 +1501,7 @@ header {
 
 .footer-follow {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .footer-follow li {

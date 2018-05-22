@@ -122,6 +122,8 @@ ul, ol {
 
 .section {
     position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .md-padding {

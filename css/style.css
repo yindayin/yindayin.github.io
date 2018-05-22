@@ -1060,7 +1060,7 @@ header {
 }
 
 .team:hover .overlay {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .team .team-content {
@@ -1082,7 +1082,7 @@ header {
     transition: 0.2s color;
 }
 
-.team:hover .team-content h3 {
+.team:hover .team-content h4 {
     color: #FFF;
 }
 
@@ -1092,7 +1092,7 @@ header {
 
 .team .team-social {
     position: absolute;
-    top: 0;
+    top: 30%;
     right: 0;
     opacity: 0;
     -webkit-transition: 0.2s opacity;
@@ -1100,9 +1100,9 @@ header {
 }
 
 .team .team-social a {
-    display: block;
+    display: inline-block;
     line-height: 50px;
-    width: 50px;
+    width: 54px;
     text-align: center;
     background-color: #6195FF;
     color: #FFF;
@@ -1121,6 +1121,9 @@ header {
         margin: 0;
     }
     .team-img .img-responsive {
+        display: none;
+    }
+    .team:hover .overlay {
         display: none;
     }
 }

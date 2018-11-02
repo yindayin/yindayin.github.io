@@ -143,6 +143,10 @@ ul, ol {
     }
 }
 
+/* --  Images -- */
+img {
+    width: 100%;
+}
 
 /* --  background section  -- */
 
@@ -155,7 +159,6 @@ ul, ol {
 .bg-dark {
     background-color: #1C1D21;
 }
-
 
 /* --  background image section  -- */
 
@@ -177,7 +180,7 @@ ul, ol {
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: .8;
+    opacity: .5;
     background: #1C1D21;
 }
 

@@ -656,6 +656,7 @@ header {
 .home-content h1 {
   text-transform: uppercase;
   font-size: 36px;
+  text-shadow: 1px 1px 3px #000;
 }
 .home-content h1:after {
     content:"";
@@ -664,6 +665,9 @@ header {
     width:150px;
     background-color: #f06292;
     margin: 10px auto 0 auto; 
+}
+.home-content p {
+    text-shadow: 1px 1px 3px #000;
 }
 .home-content button {
   margin-top: 20px;

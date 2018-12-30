@@ -26,7 +26,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/MountainStyles.css" />
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
@@ -60,9 +60,9 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a href="index.html">
-							YindaYin Coaching
-						</a>
+							<a href="index.html">
+									<img class="logo img-responsive" src="img/logo.png" title="YindaYin Coaching">
+							</a>
 					</div>
 					<!-- /Logo -->
 
@@ -74,21 +74,35 @@
 				</div>
 
 				<!--  Main navigation  -->
-				<ul class="main-nav nav navbar-nav navbar-right">
+				<ul class="main-nav nav navbar-nav">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#program">Program</a></li>
-					<li><a href="#team">Team</a></li>
 					<li><a href="#schedule">Schedules</a></li>
-					<!-- <li class="has-dropdown"><a href="#blog">Blog</a>
-						<ul class="dropdown">
-							<li><a href="blog-single.html">blog post</a></li>
-						</ul>
-					</li> -->
+					<li><a href="#team">Team</a></li>
+					<li><a href="#">Internship</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="#donate" class="pink-txt">Donate</a></li>
+					<li><a href="#donate" class="donate-button">Donate</a></li>
 				</ul>
-				<!-- /Main navigation -->
+
+				<!-- Social Media navigation -->
+				<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="https://www.facebook.com/YindaYinCoaching/" target="_blank">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+								<a href="https://www.instagram.com/yindayin_coaching/" target="_blank">
+									<i class="fa fa-instagram"></i>
+								</a>
+						</li>
+						<li>
+								<a href="https://www.youtube.com/channel/UCJkvVJ_1ii1gYc89OjSP75g?view_as=subscriber" target="_blank">
+									<i class="fa fa-youtube"></i>
+								</a>
+						</li>
+					</ul>
 
 			</div>
 		</nav>
@@ -102,10 +116,9 @@
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h1 class="white-text">Holistic and personalized education</h1>
-							<p class="white-text">YindaYin Coaching is committed to providing our students with the tools and opportunities needed to reach their full potential. That is why our comprehensive services are focused on providing interactive and tailored lessons, workshops, mentorship as well as networking opportunities for our students.
+							<p class="white-text lead">
+								YindaYin Coaching is committed to providing our students with the tools and opportunities needed to reach their full potential. That is why our comprehensive services are focused on providing interactive and tailored lessons, workshops, mentorship as well as networking opportunities for our students.
 							</p>
-							<a class="white-btn" href="#contact">Get Started!</button>
 							<a class="main-btn" href="#about">Learn more</a>
 						</div>
 					</div>
@@ -130,9 +143,15 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">Who we are</h2>
-					<p>YindaYin Coaching is a 501(c)(3) nonprofit organization registered in the State of New York. “YindaYin” literally translates to “yes, of course!” in the Tibetan language. YindaYin Coaching is the result of countless discussions between founders Chime Dolma and Tashi Tenzin. Influenced by their own experience as educators, they are passionate about empowering young people through education and mentorship.  YindaYin Coaching is open to all families living in New York City, but it has its roots in serving the immigrant community of Queens.</p><br/>
-					<p>As immigrants themselves, the founders have worked closely with Tibetan immigrants and refugees in Queens and have therefore witnessed the hardships they face. They hope to provide a platform that can help children of immigrant families take full advantage of the opportunities that the educational system offers in America. That is why YindaYin Coaching Center is strategically located in Jackson Heights, a subsection of Queens with one of the densest Tibetan populations as well as a diverse population of other immigrant communities. We encourage our students to embrace the diversity of their community and learn to respect people from all backgrounds. Fostering diversity and compassion in our future generation is a key element of our program equal to achieving academic excellence.</p>
+					<h2 class="title">
+						Who we are
+					</h2>
+					<p class="text-left">
+						YindaYin Coaching is a 501(c)(3) nonprofit organization registered in the State of New York. “YindaYin” literally translates to “yes, of course!” in the Tibetan language. YindaYin Coaching is the result of countless discussions between founders Chime Dolma and Tashi Tenzin. Influenced by their own experience as educators, they are passionate about empowering young people through education and mentorship.  YindaYin Coaching is open to all families living in New York City, but it has its roots in serving the immigrant community of Queens.
+					</p>
+					<p class="text-left">
+						As immigrants themselves, the founders have worked closely with Tibetan immigrants and refugees in Queens and have therefore witnessed the hardships they face. They hope to provide a platform that can help children of immigrant families take full advantage of the opportunities that the educational system offers in America. That is why YindaYin Coaching Center is strategically located in Jackson Heights, a subsection of Queens with one of the densest Tibetan populations as well as a diverse population of other immigrant communities. We encourage our students to embrace the diversity of their community and learn to respect people from all backgrounds. Fostering diversity and compassion in our future generation is a key element of our program equal to achieving academic excellence.
+					</p>
 				</div>
 				<!-- /Section header -->
 
@@ -194,14 +213,12 @@
 				</div>
 				<!-- /Section header -->
 
-				<div class="panel-group program-section" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel-group program-section" role="tablist" aria-multiselectable="true">
 					<h3 class="subtitle">Languages</h3>
 					<div class="panel panel-default">
-					  <div class="panel-heading" role="tab" id="headingOne">
+					  <div class="panel-heading" id="headingOne">
 						<h4 class="panel-title">
-						  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							1. Tibetan
-						  </a>
+								1. Tibetan
 						</h4>
 					  </div>
 					  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -211,14 +228,13 @@
 					  </div>
 					</div>
 					<div class="panel panel-default">
-					  <div class="panel-heading" role="tab" id="headingTwo">
+					  <div class="panel-heading" id="headingTwo">
 						<h4 class="panel-title">
-						  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							2. English
+								2. English							
 						  </a>
 						</h4>
 					  </div>
-					  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					  <div id="collapseTwo" class="panel-collapse" role="tabpanel" aria-labelledby="headingTwo">
 						<div class="panel-body">
 							Our English program takes a multifaceted approach to our English class, focusing on not only writing and reading, but also critical thinking and research skills that are necessary to succeed in the 21st century. We at YindaYin Coaching have also created tools for parents and children of all ages, including creating bedtime reading recordings for young children, teaching students our strategies and tips for research and academic writing, and tailored college readiness courses.
 						</div>
@@ -227,12 +243,10 @@
 					<div class="panel panel-default">
 					  <div class="panel-heading" role="tab" id="headingThree">
 						<h4 class="panel-title">
-						  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							3. Chinese
-						  </a>
+								3. Chinese
 						</h4>
 					  </div>
-					  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					  <div id="collapseThree" class="panel-collapse" role="tabpanel" aria-labelledby="headingThree">
 						<div class="panel-body">
 							Nowadays, an extra language skill can be a highly marketable skill both in the college and job search. China has become the 2nd largest economy in the world, and more and more employers are seeking applicants with Mandarin Chinese skills.  That is why we at YindaYin Coaching provide Chinese immersion class to children as young as two years old. Our Chinese immersion classes are taught entirely by native Chinese speakers.						</div>
 					  	</div>
@@ -610,7 +624,7 @@
 	</div>
 	<!-- /Pricing -->
 	<!-- Tuition -->
-	<div id="tuition" class="section sm-padding bg-grey">
+	<div id="donate" class="section sm-padding bg-grey">
 
 			<!-- Container -->
 			<div class="container">
@@ -634,7 +648,7 @@
 			<!-- /Container -->
 	
 			<!-- Container -->
-			<div class="container" id="donate">
+			<div class="container">
 		
 				<!-- Row -->
 				<div class="row">
@@ -734,12 +748,21 @@
 				<h3 class="subtitle">Follow us at:</h3>
 				<!-- footer follow -->
 				<ul class="footer-follow">
-					<li><a href="https://www.facebook.com/YindaYinCoaching/"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="https://www.linkedin.com/company/yindayin-coaching-inc"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="https://www.youtube.com/channel/UCJkvVJ_1ii1gYc89OjSP75g/featured"><i class="fa fa-youtube"></i></a></li>
+						<li>
+								<a href="https://www.facebook.com/YindaYinCoaching/" target="_blank">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+									<a href="https://www.instagram.com/yindayin_coaching/" target="_blank">
+										<i class="fa fa-instagram"></i>
+									</a>
+							</li>
+							<li>
+									<a href="https://www.youtube.com/channel/UCJkvVJ_1ii1gYc89OjSP75g?view_as=subscriber" target="_blank">
+										<i class="fa fa-youtube"></i>
+									</a>
+							</li>
 				</ul>
 				<!-- /footer follow -->
 
@@ -772,7 +795,7 @@
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						<p>Copyright © 2019. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
 					</div>
 					<!-- /footer copyright -->
 

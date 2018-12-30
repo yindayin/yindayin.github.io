@@ -1,5 +1,7 @@
 $yindayin-blue:     #4692CE;
 
+$gray-base:         #333333;
+
 /*
 Theme Name:
 Author: yaminncco
@@ -51,7 +53,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
-    color: #868F9B;
+    color: $gray-base;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,8 +98,12 @@ a:hover, a:focus {
     color: $yindayin-blue;
 }
 
-.main-color {
+.color-primary {
     color: $yindayin-blue;
+}
+
+.color-base {
+    color: $gray-base; 
 }
 
 .white-text {

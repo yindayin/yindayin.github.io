@@ -45,7 +45,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   overflow-x: hidden;
-  color: #868F9B;
+  color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,8 +90,12 @@ a:hover, a:focus {
   color: #4692CE;
 }
 
-.main-color {
+.color-primary {
   color: #4692CE;
+}
+
+.color-base {
+  color: #333333;
 }
 
 .white-text {

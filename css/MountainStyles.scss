@@ -362,7 +362,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
 }
 
-.navbar-nav {
+.navbar-nav { 
+
     .donate-button {
         background: $yindayin-blue;
         color: white;
@@ -453,7 +454,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         padding: 0px 15px;
     }
     .main-nav li a {
-        font-size: 14px;
+        font-size: 1.7rem;
         -webkit-transition: 0.2s color;
         transition: 0.2s color;
     }
@@ -1616,6 +1617,7 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     margin: 0;
+    color:#FFF;
 }
 
 

@@ -225,7 +225,7 @@ figcaption {
   	height:4px;
   	width:40px;
   	background-color: #f06292;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .text-center .title:after {
@@ -371,6 +371,7 @@ a.donate-button {
     -webkit-transition: 0.2s padding;
     transition: 0.2s padding;
     z-index: 999;
+    height: 10%;
 }
 
 #nav.navbar {
@@ -674,7 +675,7 @@ header {
     height:4px;
     width:150px;
     background-color: #f06292;
-    margin: 10px auto 0 auto; 
+    margin: 10px auto 0 auto;
 }
 .home-content p {
     text-shadow: 1px 1px 3px #000;
@@ -1036,8 +1037,64 @@ header {
     color: #6195FF;
     text-transform: uppercase;
 }
+/*------------------------------------*\
+	Portfolio
+\*------------------------------------*/
+.teamcard{
+  padding-bottom:10px;
+}
 
+.imgdiv{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black
 
+}
+.cardimage{
+  width: 100%; height: 100%;object-fit: fill;
+}
+
+.cardname{
+  text-align: center;margin-top:10px;
+}
+
+.cardposition{
+  text-align:center; margin-top:-10px;
+}
+
+.overlayimg {
+  border:1px solid black; width: 30%; height: 400px; float: left; background-size: contain;
+}
+
+.overlaydesc {
+  display:block; padding-left: 5%; float:left; width:60%;
+}
+
+.card {
+  border:1px solid black;
+}
+
+#Chime, #Rinchen, #Tashi, #Tenzin, #James, #Bryan {
+ position: fixed;
+ display: none;
+ width: 100%;
+ height: 90%;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: white;
+ z-index: 2;
+ cursor: pointer;
+ background-color: #FAFAFA;
+}
+.text{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-size: 50px;
+  color: black;
+
+}
 /*------------------------------------*\
 	Team
 \*------------------------------------*/
